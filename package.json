@@ -7,7 +7,11 @@
     "start": "webpack server --env port=3000",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
-    "build": "webpack"
+    "build": "webpack",
+    "lint:scss": "npx stylelint \"**/*.scss\"",
+    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
+
+
   },
   "keywords": [],
   "author": "",
